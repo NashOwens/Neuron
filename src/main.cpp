@@ -17,7 +17,7 @@ int main() {
         vec.push_back(new Node(i));
     }
     List* nlist = new List(vec);
-    std::cout << nlist->getList()[3]->getData() << "\n";
+    std::cout << nlist->getNodeByIndex(10)->getData() << "\n";
 
     return 0;
 }

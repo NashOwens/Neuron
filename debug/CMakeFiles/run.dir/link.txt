@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/run.dir/src/main.cpp.o -o run  src/libNode.a src/libList.a 

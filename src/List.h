@@ -19,7 +19,7 @@ public:
     
     inline std::vector<Node*> getList() { return nodes; };
     void addToEnd(Node* nodeToAdd);
-
+    inline Node* getNodeByIndex(int index) { return nodes[index]; };
 private:
     Node* head;
     Node* tail;
