@@ -143,17 +143,17 @@ Node/fast:
 .PHONY : Node/fast
 
 #=============================================================================
-# Target rules for targets named List
+# Target rules for targets named LLNode
 
 # Build rule for target.
-List: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 List
-.PHONY : List
+LLNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LLNode
+.PHONY : LLNode
 
 # fast build rule for target.
-List/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/build
-.PHONY : List/fast
+LLNode/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/build
+.PHONY : LLNode/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -187,7 +187,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... List"
+	@echo "... LLNode"
 	@echo "... Node"
 	@echo "... run"
 	@echo "... src/main.o"

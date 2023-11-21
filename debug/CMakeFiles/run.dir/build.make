@@ -93,7 +93,7 @@ run_EXTERNAL_OBJECTS =
 run: CMakeFiles/run.dir/src/main.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: src/libNode.a
-run: src/libList.a
+run: src/libLLNode.a
 run: CMakeFiles/run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.dir/link.txt --verbose=$(VERBOSE)

@@ -81,7 +81,7 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/Node.dir/all
-src/all: src/CMakeFiles/List.dir/all
+src/all: src/CMakeFiles/LLNode.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -90,7 +90,7 @@ src/preinstall:
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/Node.dir/clean
-src/clean: src/CMakeFiles/List.dir/clean
+src/clean: src/CMakeFiles/LLNode.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -98,7 +98,7 @@ src/clean: src/CMakeFiles/List.dir/clean
 
 # All Build rule for target.
 CMakeFiles/run.dir/all: src/CMakeFiles/Node.dir/all
-CMakeFiles/run.dir/all: src/CMakeFiles/List.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/LLNode.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=5,6 "Built target run"
@@ -147,30 +147,30 @@ src/CMakeFiles/Node.dir/clean:
 .PHONY : src/CMakeFiles/Node.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/List.dir
+# Target rules for target src/CMakeFiles/LLNode.dir
 
 # All Build rule for target.
-src/CMakeFiles/List.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=1,2 "Built target List"
-.PHONY : src/CMakeFiles/List.dir/all
+src/CMakeFiles/LLNode.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=1,2 "Built target LLNode"
+.PHONY : src/CMakeFiles/LLNode.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/List.dir/rule: cmake_check_build_system
+src/CMakeFiles/LLNode.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/List.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LLNode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
-.PHONY : src/CMakeFiles/List.dir/rule
+.PHONY : src/CMakeFiles/LLNode.dir/rule
 
 # Convenience name for target.
-List: src/CMakeFiles/List.dir/rule
-.PHONY : List
+LLNode: src/CMakeFiles/LLNode.dir/rule
+.PHONY : LLNode
 
 # clean rule for target.
-src/CMakeFiles/List.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/clean
-.PHONY : src/CMakeFiles/List.dir/clean
+src/CMakeFiles/LLNode.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/clean
+.PHONY : src/CMakeFiles/LLNode.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

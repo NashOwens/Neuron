@@ -8,5 +8,8 @@ add_executable(run src/main.cpp)
 target_link_libraries(run 
 PRIVATE
 Node
-List
+LLNode
+Neuron
+Edge
+Activation
 )

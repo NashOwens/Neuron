@@ -1,15 +1,27 @@
+#include <iostream>
 
+template<class T>
 class Node {
 public:
-	inline Node(double data) : data(data) {};
-	inline ~Node() {};
+    Node() {};
+	Node(T data) : data(data), prev(nullptr), next(nullptr) {};
+	~Node() {};
 
-	void setData(double newData);
-	double inline getData() { return data; }
+    template<class K>
+	inline void setData(K newData) { this.data = newData; }; 
+	inline T getData() { return data; };
+    
+	inline void setPrev(Node<T>* newLink) { prev = newLink; };
+    inline void setNext(Node<T>* newLink) { next = newLink; };
 
-	void setLink(Node* newLink);
-	inline Node* getLink() { return link; }
+	inline Node* getPrev() { return prev; };
+    inline Node* getNext() { return next; };
+    
+    const void display() {
+        std::cout << "\n" << data;
+    };
 private:
-	double data;
-	Node* link;
+	T data;
+	Node<T>* prev;
+    Node<T>* next;
 };

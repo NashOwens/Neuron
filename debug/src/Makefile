@@ -131,42 +131,42 @@ Node/fast:
 .PHONY : Node/fast
 
 # Convenience name for target.
-src/CMakeFiles/List.dir/rule:
-	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/List.dir/rule
-.PHONY : src/CMakeFiles/List.dir/rule
+src/CMakeFiles/LLNode.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LLNode.dir/rule
+.PHONY : src/CMakeFiles/LLNode.dir/rule
 
 # Convenience name for target.
-List: src/CMakeFiles/List.dir/rule
-.PHONY : List
+LLNode: src/CMakeFiles/LLNode.dir/rule
+.PHONY : LLNode
 
 # fast build rule for target.
-List/fast:
-	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/build
-.PHONY : List/fast
+LLNode/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/build
+.PHONY : LLNode/fast
 
-List.o: List.cpp.o
-.PHONY : List.o
+LLNode.o: LLNode.cpp.o
+.PHONY : LLNode.o
 
 # target to build an object file
-List.cpp.o:
-	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/List.cpp.o
-.PHONY : List.cpp.o
+LLNode.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/LLNode.cpp.o
+.PHONY : LLNode.cpp.o
 
-List.i: List.cpp.i
-.PHONY : List.i
+LLNode.i: LLNode.cpp.i
+.PHONY : LLNode.i
 
 # target to preprocess a source file
-List.cpp.i:
-	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/List.cpp.i
-.PHONY : List.cpp.i
+LLNode.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/LLNode.cpp.i
+.PHONY : LLNode.cpp.i
 
-List.s: List.cpp.s
-.PHONY : List.s
+LLNode.s: LLNode.cpp.s
+.PHONY : LLNode.s
 
 # target to generate assembly for a file
-List.cpp.s:
-	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/List.dir/build.make src/CMakeFiles/List.dir/List.cpp.s
-.PHONY : List.cpp.s
+LLNode.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/LLNode.cpp.s
+.PHONY : LLNode.cpp.s
 
 Node.o: Node.cpp.o
 .PHONY : Node.o
@@ -200,11 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... List"
+	@echo "... LLNode"
 	@echo "... Node"
-	@echo "... List.o"
-	@echo "... List.i"
-	@echo "... List.s"
+	@echo "... LLNode.o"
+	@echo "... LLNode.i"
+	@echo "... LLNode.s"
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"

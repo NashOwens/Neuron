@@ -144,8 +144,9 @@ CMakeFiles/run.dir/src/main.cpp.o: /home/nash/git/Neuron/src/main.cpp \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /home/nash/git/Neuron/src/List.h \
- /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/istream.tcc /home/nash/git/Neuron/src/LLNode.h \
+ /home/nash/git/Neuron/src/Node.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /home/nash/git/Neuron/src/Node.h
+ /usr/include/c++/11/bits/vector.tcc
