@@ -1,0 +1,2 @@
+/usr/bin/ar qc libNeuronLayer.a CMakeFiles/NeuronLayer.dir/NeuronLayer.cpp.o
+/usr/bin/ranlib libNeuronLayer.a

@@ -1,20 +1,28 @@
+#pragma once
 #include "Node.h"
+#include "Neuron.h"
 #include <vector>
+#include <iostream>
 
 template<class T>
 class LLNode {
-private:
+protected:
     int size;
     Node<T>* head;
 public:
-    LLNode() : size(0) {};
-    LLNode(Node<T>* node) : head(node), size(1) {};
+    LLNode() : head(nullptr), size(0) {};
+    LLNode<T>(Node<T>* node) : head(node), size(1) {};
+    LLNode<T>(Neuron* node) : head(node), size(1) {};
     ~LLNode() {};
+    /*
+     *  Used for the EdgeLayer...
+     */
+    const Node<T>* getHead() { return this->head; };
 
     /*
      * Invokes the display() function for each node in the Linked list.
      */
-    const void displayForward() {
+    virtual const void displayForward() {
         std::cout << "\nSize of LinkedList: " << size;
         Node<T>* current = this->head;
         while(current->getPrev() != nullptr) {
@@ -26,43 +34,52 @@ public:
     
     /*
      * Invokes the display() function for each node in the Linked list backwards.
+     * DO NOT USE ON Neuron class FOR NOW! (It works except the size displayed
+     * is incorrect, it never displays the last neuron)
      */
-    const void displayBack() {
+    virtual const void displayBack() {
         std::cout << "\nSize of LinkedList: " << size;
         Node<T>* current = this->head;
         while(current->getPrev() != nullptr) {
             current = current->getPrev();
-        };
+        }
         while(current->getNext() != nullptr) {
             current->display();
             current = current->getNext();
         };
-
     };
 
     /*
      * Adds a node to the back of the Linked list.
      */
-    template<class K>
-    const void add_back(Node<K>* node) { 
-        Node<T>* current = this->head;
-        while(current->getPrev() != nullptr) {
-            current = current->getPrev();
+    const void add_back(Node<T>* node) { 
+        if (size == 0 && this->head == nullptr) {
+            this->head = node;
+            size++;
+        } else {
+            Node<T>* current = this->head;
+            while(current->getPrev() != nullptr) {
+                current = current->getPrev();
+            }
+            node->setNext(current);
+            current->setPrev(node);
+            size++;
         }
-        node->setNext(current);
-        current->setPrev(node);
-        size++;
     };
 
     /*
      * Adds a node to the front of the Linked list.
      */
-    template<class K>
-    void add_front(Node<K>* node) {
-        this->head->setNext(node);
-        node->setPrev(this->head);
-        this->head = node;
-        size++;
+    void add_front(Node<T>* node) {
+        if (size == 0 && this->head == nullptr) {
+            this->head = node;
+            size++;
+        } else {
+            this->head->setNext(node);
+            node->setPrev(this->head);
+            this->head = node;
+            size++;
+        }
     };
 
     /*
@@ -90,11 +107,10 @@ public:
     /*
      * Removes a node given from the Linked list.
      */
-    template<class K>
-    void remove(Node<K>* node) {
+    void remove(Node<T>* node) {
         std::cout << "\nDeleting node(data=" << node->getData() << ")";
-        Node<K>* current = this->head;
-        Node<K>* remove = nullptr;
+        Node<T>* current = this->head;
+        Node<T>* remove = nullptr;
         if (current == node) {
             this->head = current->getPrev();
             delete current;
@@ -106,7 +122,7 @@ public:
         }
         if(current->getPrev() != nullptr && current->getPrev()->getPrev() != nullptr) {
             remove = current->getPrev();
-            Node<K>* connect = current->getPrev()->getPrev();
+            Node<T>* connect = current->getPrev()->getPrev();
             connect->setNext(current);
             current->setPrev(connect);
             delete remove;

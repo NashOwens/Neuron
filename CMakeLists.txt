@@ -9,7 +9,12 @@ target_link_libraries(run
 PRIVATE
 Node
 LLNode
-Neuron
 Edge
+Neuron
 Activation
+NeuronLayer
+LLNeuron
+Network
+LLEdge
+EdgeLayer
 )

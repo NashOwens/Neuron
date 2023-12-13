@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEdgeLayer.a CMakeFiles/EdgeLayer.dir/EdgeLayer.cpp.o
+/usr/bin/ranlib libEdgeLayer.a

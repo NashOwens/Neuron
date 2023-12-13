@@ -155,6 +155,110 @@ LLNode/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/build
 .PHONY : LLNode/fast
 
+#=============================================================================
+# Target rules for targets named Neuron
+
+# Build rule for target.
+Neuron: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Neuron
+.PHONY : Neuron
+
+# fast build rule for target.
+Neuron/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/build
+.PHONY : Neuron/fast
+
+#=============================================================================
+# Target rules for targets named Edge
+
+# Build rule for target.
+Edge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Edge
+.PHONY : Edge
+
+# fast build rule for target.
+Edge/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/build
+.PHONY : Edge/fast
+
+#=============================================================================
+# Target rules for targets named Activation
+
+# Build rule for target.
+Activation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Activation
+.PHONY : Activation
+
+# fast build rule for target.
+Activation/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/build
+.PHONY : Activation/fast
+
+#=============================================================================
+# Target rules for targets named NeuronLayer
+
+# Build rule for target.
+NeuronLayer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeuronLayer
+.PHONY : NeuronLayer
+
+# fast build rule for target.
+NeuronLayer/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/build
+.PHONY : NeuronLayer/fast
+
+#=============================================================================
+# Target rules for targets named LLNeuron
+
+# Build rule for target.
+LLNeuron: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LLNeuron
+.PHONY : LLNeuron
+
+# fast build rule for target.
+LLNeuron/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/build
+.PHONY : LLNeuron/fast
+
+#=============================================================================
+# Target rules for targets named Network
+
+# Build rule for target.
+Network: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Network
+.PHONY : Network
+
+# fast build rule for target.
+Network/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/build
+.PHONY : Network/fast
+
+#=============================================================================
+# Target rules for targets named LLEdge
+
+# Build rule for target.
+LLEdge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LLEdge
+.PHONY : LLEdge
+
+# fast build rule for target.
+LLEdge/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/build
+.PHONY : LLEdge/fast
+
+#=============================================================================
+# Target rules for targets named EdgeLayer
+
+# Build rule for target.
+EdgeLayer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EdgeLayer
+.PHONY : EdgeLayer
+
+# fast build rule for target.
+EdgeLayer/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/build
+.PHONY : EdgeLayer/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -187,7 +291,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Activation"
+	@echo "... Edge"
+	@echo "... EdgeLayer"
+	@echo "... LLEdge"
+	@echo "... LLNeuron"
 	@echo "... LLNode"
+	@echo "... Network"
+	@echo "... Neuron"
+	@echo "... NeuronLayer"
 	@echo "... Node"
 	@echo "... run"
 	@echo "... src/main.o"

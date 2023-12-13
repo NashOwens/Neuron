@@ -144,6 +144,238 @@ LLNode/fast:
 	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/build
 .PHONY : LLNode/fast
 
+# Convenience name for target.
+src/CMakeFiles/Neuron.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Neuron.dir/rule
+.PHONY : src/CMakeFiles/Neuron.dir/rule
+
+# Convenience name for target.
+Neuron: src/CMakeFiles/Neuron.dir/rule
+.PHONY : Neuron
+
+# fast build rule for target.
+Neuron/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/build
+.PHONY : Neuron/fast
+
+# Convenience name for target.
+src/CMakeFiles/Edge.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Edge.dir/rule
+.PHONY : src/CMakeFiles/Edge.dir/rule
+
+# Convenience name for target.
+Edge: src/CMakeFiles/Edge.dir/rule
+.PHONY : Edge
+
+# fast build rule for target.
+Edge/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/build
+.PHONY : Edge/fast
+
+# Convenience name for target.
+src/CMakeFiles/Activation.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Activation.dir/rule
+.PHONY : src/CMakeFiles/Activation.dir/rule
+
+# Convenience name for target.
+Activation: src/CMakeFiles/Activation.dir/rule
+.PHONY : Activation
+
+# fast build rule for target.
+Activation/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/build
+.PHONY : Activation/fast
+
+# Convenience name for target.
+src/CMakeFiles/NeuronLayer.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/NeuronLayer.dir/rule
+.PHONY : src/CMakeFiles/NeuronLayer.dir/rule
+
+# Convenience name for target.
+NeuronLayer: src/CMakeFiles/NeuronLayer.dir/rule
+.PHONY : NeuronLayer
+
+# fast build rule for target.
+NeuronLayer/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/build
+.PHONY : NeuronLayer/fast
+
+# Convenience name for target.
+src/CMakeFiles/LLNeuron.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LLNeuron.dir/rule
+.PHONY : src/CMakeFiles/LLNeuron.dir/rule
+
+# Convenience name for target.
+LLNeuron: src/CMakeFiles/LLNeuron.dir/rule
+.PHONY : LLNeuron
+
+# fast build rule for target.
+LLNeuron/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/build
+.PHONY : LLNeuron/fast
+
+# Convenience name for target.
+src/CMakeFiles/Network.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Network.dir/rule
+.PHONY : src/CMakeFiles/Network.dir/rule
+
+# Convenience name for target.
+Network: src/CMakeFiles/Network.dir/rule
+.PHONY : Network
+
+# fast build rule for target.
+Network/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/build
+.PHONY : Network/fast
+
+# Convenience name for target.
+src/CMakeFiles/LLEdge.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LLEdge.dir/rule
+.PHONY : src/CMakeFiles/LLEdge.dir/rule
+
+# Convenience name for target.
+LLEdge: src/CMakeFiles/LLEdge.dir/rule
+.PHONY : LLEdge
+
+# fast build rule for target.
+LLEdge/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/build
+.PHONY : LLEdge/fast
+
+# Convenience name for target.
+src/CMakeFiles/EdgeLayer.dir/rule:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/EdgeLayer.dir/rule
+.PHONY : src/CMakeFiles/EdgeLayer.dir/rule
+
+# Convenience name for target.
+EdgeLayer: src/CMakeFiles/EdgeLayer.dir/rule
+.PHONY : EdgeLayer
+
+# fast build rule for target.
+EdgeLayer/fast:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/build
+.PHONY : EdgeLayer/fast
+
+Activation.o: Activation.cpp.o
+.PHONY : Activation.o
+
+# target to build an object file
+Activation.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/Activation.cpp.o
+.PHONY : Activation.cpp.o
+
+Activation.i: Activation.cpp.i
+.PHONY : Activation.i
+
+# target to preprocess a source file
+Activation.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/Activation.cpp.i
+.PHONY : Activation.cpp.i
+
+Activation.s: Activation.cpp.s
+.PHONY : Activation.s
+
+# target to generate assembly for a file
+Activation.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/Activation.cpp.s
+.PHONY : Activation.cpp.s
+
+Edge.o: Edge.cpp.o
+.PHONY : Edge.o
+
+# target to build an object file
+Edge.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/Edge.cpp.o
+.PHONY : Edge.cpp.o
+
+Edge.i: Edge.cpp.i
+.PHONY : Edge.i
+
+# target to preprocess a source file
+Edge.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/Edge.cpp.i
+.PHONY : Edge.cpp.i
+
+Edge.s: Edge.cpp.s
+.PHONY : Edge.s
+
+# target to generate assembly for a file
+Edge.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/Edge.cpp.s
+.PHONY : Edge.cpp.s
+
+EdgeLayer.o: EdgeLayer.cpp.o
+.PHONY : EdgeLayer.o
+
+# target to build an object file
+EdgeLayer.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/EdgeLayer.cpp.o
+.PHONY : EdgeLayer.cpp.o
+
+EdgeLayer.i: EdgeLayer.cpp.i
+.PHONY : EdgeLayer.i
+
+# target to preprocess a source file
+EdgeLayer.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/EdgeLayer.cpp.i
+.PHONY : EdgeLayer.cpp.i
+
+EdgeLayer.s: EdgeLayer.cpp.s
+.PHONY : EdgeLayer.s
+
+# target to generate assembly for a file
+EdgeLayer.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/EdgeLayer.cpp.s
+.PHONY : EdgeLayer.cpp.s
+
+LLEdge.o: LLEdge.cpp.o
+.PHONY : LLEdge.o
+
+# target to build an object file
+LLEdge.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/LLEdge.cpp.o
+.PHONY : LLEdge.cpp.o
+
+LLEdge.i: LLEdge.cpp.i
+.PHONY : LLEdge.i
+
+# target to preprocess a source file
+LLEdge.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/LLEdge.cpp.i
+.PHONY : LLEdge.cpp.i
+
+LLEdge.s: LLEdge.cpp.s
+.PHONY : LLEdge.s
+
+# target to generate assembly for a file
+LLEdge.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/LLEdge.cpp.s
+.PHONY : LLEdge.cpp.s
+
+LLNeuron.o: LLNeuron.cpp.o
+.PHONY : LLNeuron.o
+
+# target to build an object file
+LLNeuron.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/LLNeuron.cpp.o
+.PHONY : LLNeuron.cpp.o
+
+LLNeuron.i: LLNeuron.cpp.i
+.PHONY : LLNeuron.i
+
+# target to preprocess a source file
+LLNeuron.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/LLNeuron.cpp.i
+.PHONY : LLNeuron.cpp.i
+
+LLNeuron.s: LLNeuron.cpp.s
+.PHONY : LLNeuron.s
+
+# target to generate assembly for a file
+LLNeuron.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/LLNeuron.cpp.s
+.PHONY : LLNeuron.cpp.s
+
 LLNode.o: LLNode.cpp.o
 .PHONY : LLNode.o
 
@@ -167,6 +399,78 @@ LLNode.s: LLNode.cpp.s
 LLNode.cpp.s:
 	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/LLNode.cpp.s
 .PHONY : LLNode.cpp.s
+
+Network.o: Network.cpp.o
+.PHONY : Network.o
+
+# target to build an object file
+Network.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/Network.cpp.o
+.PHONY : Network.cpp.o
+
+Network.i: Network.cpp.i
+.PHONY : Network.i
+
+# target to preprocess a source file
+Network.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/Network.cpp.i
+.PHONY : Network.cpp.i
+
+Network.s: Network.cpp.s
+.PHONY : Network.s
+
+# target to generate assembly for a file
+Network.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/Network.cpp.s
+.PHONY : Network.cpp.s
+
+Neuron.o: Neuron.cpp.o
+.PHONY : Neuron.o
+
+# target to build an object file
+Neuron.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/Neuron.cpp.o
+.PHONY : Neuron.cpp.o
+
+Neuron.i: Neuron.cpp.i
+.PHONY : Neuron.i
+
+# target to preprocess a source file
+Neuron.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/Neuron.cpp.i
+.PHONY : Neuron.cpp.i
+
+Neuron.s: Neuron.cpp.s
+.PHONY : Neuron.s
+
+# target to generate assembly for a file
+Neuron.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/Neuron.cpp.s
+.PHONY : Neuron.cpp.s
+
+NeuronLayer.o: NeuronLayer.cpp.o
+.PHONY : NeuronLayer.o
+
+# target to build an object file
+NeuronLayer.cpp.o:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/NeuronLayer.cpp.o
+.PHONY : NeuronLayer.cpp.o
+
+NeuronLayer.i: NeuronLayer.cpp.i
+.PHONY : NeuronLayer.i
+
+# target to preprocess a source file
+NeuronLayer.cpp.i:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/NeuronLayer.cpp.i
+.PHONY : NeuronLayer.cpp.i
+
+NeuronLayer.s: NeuronLayer.cpp.s
+.PHONY : NeuronLayer.s
+
+# target to generate assembly for a file
+NeuronLayer.cpp.s:
+	cd /home/nash/git/Neuron/debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/NeuronLayer.cpp.s
+.PHONY : NeuronLayer.cpp.s
 
 Node.o: Node.cpp.o
 .PHONY : Node.o
@@ -200,11 +504,43 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Activation"
+	@echo "... Edge"
+	@echo "... EdgeLayer"
+	@echo "... LLEdge"
+	@echo "... LLNeuron"
 	@echo "... LLNode"
+	@echo "... Network"
+	@echo "... Neuron"
+	@echo "... NeuronLayer"
 	@echo "... Node"
+	@echo "... Activation.o"
+	@echo "... Activation.i"
+	@echo "... Activation.s"
+	@echo "... Edge.o"
+	@echo "... Edge.i"
+	@echo "... Edge.s"
+	@echo "... EdgeLayer.o"
+	@echo "... EdgeLayer.i"
+	@echo "... EdgeLayer.s"
+	@echo "... LLEdge.o"
+	@echo "... LLEdge.i"
+	@echo "... LLEdge.s"
+	@echo "... LLNeuron.o"
+	@echo "... LLNeuron.i"
+	@echo "... LLNeuron.s"
 	@echo "... LLNode.o"
 	@echo "... LLNode.i"
 	@echo "... LLNode.s"
+	@echo "... Network.o"
+	@echo "... Network.i"
+	@echo "... Network.s"
+	@echo "... Neuron.o"
+	@echo "... Neuron.i"
+	@echo "... Neuron.s"
+	@echo "... NeuronLayer.o"
+	@echo "... NeuronLayer.i"
+	@echo "... NeuronLayer.s"
 	@echo "... Node.o"
 	@echo "... Node.i"
 	@echo "... Node.s"

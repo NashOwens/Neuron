@@ -94,6 +94,14 @@ run: CMakeFiles/run.dir/src/main.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: src/libNode.a
 run: src/libLLNode.a
+run: src/libEdge.a
+run: src/libNeuron.a
+run: src/libActivation.a
+run: src/libNeuronLayer.a
+run: src/libLLNeuron.a
+run: src/libNetwork.a
+run: src/libLLEdge.a
+run: src/libEdgeLayer.a
 run: CMakeFiles/run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.dir/link.txt --verbose=$(VERBOSE)

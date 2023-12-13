@@ -82,6 +82,14 @@ clean: src/clean
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/Node.dir/all
 src/all: src/CMakeFiles/LLNode.dir/all
+src/all: src/CMakeFiles/Neuron.dir/all
+src/all: src/CMakeFiles/Edge.dir/all
+src/all: src/CMakeFiles/Activation.dir/all
+src/all: src/CMakeFiles/NeuronLayer.dir/all
+src/all: src/CMakeFiles/LLNeuron.dir/all
+src/all: src/CMakeFiles/Network.dir/all
+src/all: src/CMakeFiles/LLEdge.dir/all
+src/all: src/CMakeFiles/EdgeLayer.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -91,6 +99,14 @@ src/preinstall:
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/Node.dir/clean
 src/clean: src/CMakeFiles/LLNode.dir/clean
+src/clean: src/CMakeFiles/Neuron.dir/clean
+src/clean: src/CMakeFiles/Edge.dir/clean
+src/clean: src/CMakeFiles/Activation.dir/clean
+src/clean: src/CMakeFiles/NeuronLayer.dir/clean
+src/clean: src/CMakeFiles/LLNeuron.dir/clean
+src/clean: src/CMakeFiles/Network.dir/clean
+src/clean: src/CMakeFiles/LLEdge.dir/clean
+src/clean: src/CMakeFiles/EdgeLayer.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -99,14 +115,22 @@ src/clean: src/CMakeFiles/LLNode.dir/clean
 # All Build rule for target.
 CMakeFiles/run.dir/all: src/CMakeFiles/Node.dir/all
 CMakeFiles/run.dir/all: src/CMakeFiles/LLNode.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/Neuron.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/Edge.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/Activation.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/NeuronLayer.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/LLNeuron.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/Network.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/LLEdge.dir/all
+CMakeFiles/run.dir/all: src/CMakeFiles/EdgeLayer.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=5,6 "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=21,22 "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
@@ -127,7 +151,7 @@ CMakeFiles/run.dir/clean:
 src/CMakeFiles/Node.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Node.dir/build.make src/CMakeFiles/Node.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Node.dir/build.make src/CMakeFiles/Node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=3,4 "Built target Node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=19,20 "Built target Node"
 .PHONY : src/CMakeFiles/Node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,7 +177,7 @@ src/CMakeFiles/Node.dir/clean:
 src/CMakeFiles/LLNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=1,2 "Built target LLNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=11,12 "Built target LLNode"
 .PHONY : src/CMakeFiles/LLNode.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,6 +195,214 @@ LLNode: src/CMakeFiles/LLNode.dir/rule
 src/CMakeFiles/LLNode.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNode.dir/build.make src/CMakeFiles/LLNode.dir/clean
 .PHONY : src/CMakeFiles/LLNode.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Neuron.dir
+
+# All Build rule for target.
+src/CMakeFiles/Neuron.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=15,16 "Built target Neuron"
+.PHONY : src/CMakeFiles/Neuron.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Neuron.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Neuron.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/Neuron.dir/rule
+
+# Convenience name for target.
+Neuron: src/CMakeFiles/Neuron.dir/rule
+.PHONY : Neuron
+
+# clean rule for target.
+src/CMakeFiles/Neuron.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Neuron.dir/build.make src/CMakeFiles/Neuron.dir/clean
+.PHONY : src/CMakeFiles/Neuron.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Edge.dir
+
+# All Build rule for target.
+src/CMakeFiles/Edge.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=3,4 "Built target Edge"
+.PHONY : src/CMakeFiles/Edge.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Edge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Edge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/Edge.dir/rule
+
+# Convenience name for target.
+Edge: src/CMakeFiles/Edge.dir/rule
+.PHONY : Edge
+
+# clean rule for target.
+src/CMakeFiles/Edge.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Edge.dir/build.make src/CMakeFiles/Edge.dir/clean
+.PHONY : src/CMakeFiles/Edge.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Activation.dir
+
+# All Build rule for target.
+src/CMakeFiles/Activation.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=1,2 "Built target Activation"
+.PHONY : src/CMakeFiles/Activation.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Activation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Activation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/Activation.dir/rule
+
+# Convenience name for target.
+Activation: src/CMakeFiles/Activation.dir/rule
+.PHONY : Activation
+
+# clean rule for target.
+src/CMakeFiles/Activation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Activation.dir/build.make src/CMakeFiles/Activation.dir/clean
+.PHONY : src/CMakeFiles/Activation.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/NeuronLayer.dir
+
+# All Build rule for target.
+src/CMakeFiles/NeuronLayer.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=17,18 "Built target NeuronLayer"
+.PHONY : src/CMakeFiles/NeuronLayer.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/NeuronLayer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/NeuronLayer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/NeuronLayer.dir/rule
+
+# Convenience name for target.
+NeuronLayer: src/CMakeFiles/NeuronLayer.dir/rule
+.PHONY : NeuronLayer
+
+# clean rule for target.
+src/CMakeFiles/NeuronLayer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/NeuronLayer.dir/build.make src/CMakeFiles/NeuronLayer.dir/clean
+.PHONY : src/CMakeFiles/NeuronLayer.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/LLNeuron.dir
+
+# All Build rule for target.
+src/CMakeFiles/LLNeuron.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=9,10 "Built target LLNeuron"
+.PHONY : src/CMakeFiles/LLNeuron.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/LLNeuron.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LLNeuron.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/LLNeuron.dir/rule
+
+# Convenience name for target.
+LLNeuron: src/CMakeFiles/LLNeuron.dir/rule
+.PHONY : LLNeuron
+
+# clean rule for target.
+src/CMakeFiles/LLNeuron.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLNeuron.dir/build.make src/CMakeFiles/LLNeuron.dir/clean
+.PHONY : src/CMakeFiles/LLNeuron.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Network.dir
+
+# All Build rule for target.
+src/CMakeFiles/Network.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=13,14 "Built target Network"
+.PHONY : src/CMakeFiles/Network.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Network.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Network.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/Network.dir/rule
+
+# Convenience name for target.
+Network: src/CMakeFiles/Network.dir/rule
+.PHONY : Network
+
+# clean rule for target.
+src/CMakeFiles/Network.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Network.dir/build.make src/CMakeFiles/Network.dir/clean
+.PHONY : src/CMakeFiles/Network.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/LLEdge.dir
+
+# All Build rule for target.
+src/CMakeFiles/LLEdge.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=7,8 "Built target LLEdge"
+.PHONY : src/CMakeFiles/LLEdge.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/LLEdge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/LLEdge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/LLEdge.dir/rule
+
+# Convenience name for target.
+LLEdge: src/CMakeFiles/LLEdge.dir/rule
+.PHONY : LLEdge
+
+# clean rule for target.
+src/CMakeFiles/LLEdge.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/LLEdge.dir/build.make src/CMakeFiles/LLEdge.dir/clean
+.PHONY : src/CMakeFiles/LLEdge.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/EdgeLayer.dir
+
+# All Build rule for target.
+src/CMakeFiles/EdgeLayer.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nash/git/Neuron/debug/CMakeFiles --progress-num=5,6 "Built target EdgeLayer"
+.PHONY : src/CMakeFiles/EdgeLayer.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/EdgeLayer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/EdgeLayer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nash/git/Neuron/debug/CMakeFiles 0
+.PHONY : src/CMakeFiles/EdgeLayer.dir/rule
+
+# Convenience name for target.
+EdgeLayer: src/CMakeFiles/EdgeLayer.dir/rule
+.PHONY : EdgeLayer
+
+# clean rule for target.
+src/CMakeFiles/EdgeLayer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/EdgeLayer.dir/build.make src/CMakeFiles/EdgeLayer.dir/clean
+.PHONY : src/CMakeFiles/EdgeLayer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

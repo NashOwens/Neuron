@@ -23,6 +23,28 @@ add_library(Activation
     ${CMAKE_CURRENT_SOURCE_DIR}/Activation.h
 )
 
+add_library(NeuronLayer
+    ${CMAKE_CURRENT_SOURCE_DIR}/NeuronLayer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/NeuronLayer.h
+)
 
+add_library(LLNeuron
+    ${CMAKE_CURRENT_SOURCE_DIR}/LLNeuron.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LLNeuron.h
+)
 
+add_library(Network
+    ${CMAKE_CURRENT_SOURCE_DIR}/Network.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/Network.h
+)
+
+add_library(LLEdge
+    ${CMAKE_CURRENT_SOURCE_DIR}/LLEdge.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/LLEdge.h
+)
+
+add_library(EdgeLayer
+    ${CMAKE_CURRENT_SOURCE_DIR}/EdgeLayer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/EdgeLayer.h
+)
 

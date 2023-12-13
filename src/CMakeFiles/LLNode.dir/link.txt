@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLLNode.a CMakeFiles/LLNode.dir/LLNode.cpp.o
+/usr/bin/ranlib libLLNode.a

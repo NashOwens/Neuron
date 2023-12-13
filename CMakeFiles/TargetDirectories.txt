@@ -1,4 +1,15 @@
-/home/nash/git/Neuron/CMakeFiles/Node.dir
-/home/nash/git/Neuron/CMakeFiles/LLNode.dir
+/home/nash/git/Neuron/CMakeFiles/run.dir
 /home/nash/git/Neuron/CMakeFiles/edit_cache.dir
 /home/nash/git/Neuron/CMakeFiles/rebuild_cache.dir
+/home/nash/git/Neuron/src/CMakeFiles/Node.dir
+/home/nash/git/Neuron/src/CMakeFiles/LLNode.dir
+/home/nash/git/Neuron/src/CMakeFiles/Neuron.dir
+/home/nash/git/Neuron/src/CMakeFiles/Edge.dir
+/home/nash/git/Neuron/src/CMakeFiles/Activation.dir
+/home/nash/git/Neuron/src/CMakeFiles/NeuronLayer.dir
+/home/nash/git/Neuron/src/CMakeFiles/LLNeuron.dir
+/home/nash/git/Neuron/src/CMakeFiles/Network.dir
+/home/nash/git/Neuron/src/CMakeFiles/LLEdge.dir
+/home/nash/git/Neuron/src/CMakeFiles/EdgeLayer.dir
+/home/nash/git/Neuron/src/CMakeFiles/edit_cache.dir
+/home/nash/git/Neuron/src/CMakeFiles/rebuild_cache.dir

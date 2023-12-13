@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/run.dir/src/main.cpp.o -o run  src/libNode.a src/libLLNode.a 
+/usr/bin/c++ -g CMakeFiles/run.dir/src/main.cpp.o -o run  src/libNode.a src/libLLNode.a src/libEdge.a src/libNeuron.a src/libActivation.a src/libNeuronLayer.a src/libLLNeuron.a src/libNetwork.a src/libLLEdge.a src/libEdgeLayer.a 

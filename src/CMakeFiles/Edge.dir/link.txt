@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEdge.a CMakeFiles/Edge.dir/Edge.cpp.o
+/usr/bin/ranlib libEdge.a
